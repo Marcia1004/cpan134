@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"
+    <title>Feedback Form</title>
+    
+ </head>
+ <body>
+
+    <h2>Feedback Form</h2>
+    <form action="/submit" method="POST">
+
+        Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+        <!-- Horizontal line after Name -->
+         <hr>
+
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        <!-- Horizontal line after Email -->
+
+
+        Rating us:</label><br>
+        <input type="radio" id="rating1" name="rating" value="1" required> 1
+        <input type="radio" id="rating2" name="rating" value="2" required> 2
+        <input type="radio" id="rating3" name="rating" value="3" required> 3
+        <input type="radio" id="rating4" name="rating" value="4" required> 4
+        <input type="radio" id="rating5" name="rating" value="5" required> 5
+        <br><br>
+
+
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+        <br><br>
+
+
+        <label for="agreement">
+            <input type="checkbox" id="agreement" name="agreement" required>
+            I agree to the terms and conditions
+        </label>
+        <br><br>
+
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+ </body>
+
+</html>
