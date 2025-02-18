@@ -1,0 +1,11 @@
+/* External CSS */
+a {
+    color: purple; /* Changed to purple */
+    font-size: 20px; /* Increase font size to 20px */
+    text-decoration: none;
+}
+ 
+a:hover {
+    text-decoration: underline;
+}
+

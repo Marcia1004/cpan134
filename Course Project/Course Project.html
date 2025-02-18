@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 15px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            background-color: white;
+            color: #007BFF;
+            border-radius: 5px;
+        }
+
+        main {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+            background-color: white;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        th,
+        td {
+            padding: 15px;
+            border: none;
+            text-align: left;
+        }
+
+        th {
+            background-color: #007BFF;
+            color: white;
+        }
+
+        td {
+            background-color: #f9f9f9;
+        }
+
+        audio,
+        video {
+            width: 100%;
+            margin-top: 15px;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume & Bio</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contract.html">Contract</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="media.html">Media</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <p>Welcome to my professional portfolio. Here, you will find my resume, projects, and ways to get in touch.</p>
+        </section>
+
+        <section>
+            <h2>Project Showcase</h2>
+            <table>
+                <tr>
+                    <th>Project</th>
+                    <th>Description</th>
+                    <th>Technology Used</th>
+                </tr>
+                <tr>
+                    <td><a href="https://github.com/Marcia1004/cpan134/tree/main/Assignment1" target="_blank">Recruitment of New Talents</a></td>
+                    <td>A responsive portfolio showcasing my work.</td>
+                    <td>HTML, CSS, JavaScript</td>
+                </tr>
+            </table>
+            <img src="./assets/Project-image.PNG" alt="Project Image" width="300" style="margin-top: 20px; border-radius: 10px;">
+        </section>
+
+        <section>
+            <h2>Media</h2>
+            <audio controls>
+                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <video controls>
+                <source src="https://www.youtube.com/watch?v=DiaZsat2rwM" type="video/mp4">
+                Your browser does not support the video element.
+            </video>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Marcia</p>
+    </footer>
+</body>
+
+</html>

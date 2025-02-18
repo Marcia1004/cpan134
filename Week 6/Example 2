@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>CSS Selector Types</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+  <header>
+
+    <h1 id="main-title">CSS Selectors Example</h1>
+
+    <p class="intro">Learn different types of CSS selectors.</p>
+
+  </header>
+
+  
+
+  <main>
+
+    <section class="content">
+
+      <h2>Element Selectors</h2>
+
+      <p>This paragraph is targeted by an element selector.</p>
+
+    </section>
+
+
+
+    <section class="content">
+
+      <h2>ID Selectors</h2>
+
+      <p id="unique">This paragraph is styled using an ID selector.</p>
+
+    </section>
+
+
+
+    <section>
+
+      <h2>Class Selectors</h2>
+
+      <p class="highlight">This paragraph is targeted using a class selector.</p>
+
+    </section>
+
+
+
+    <section>
+
+      <h2>Group Selectors</h2>
+
+      <p>Both paragraphs share the same style.</p>
+
+      <p>Grouping selectors saves time.</p>
+
+    </section>
+
+
+
+    <section>
+
+      <h2>Descendant and Child Selectors</h2>
+
+      <div class="parent">
+
+        <p>This paragraph is inside a div (descendant selector).</p>
+
+        <p class="direct-child">This paragraph is a direct child.</p>
+
+      </div>
+
+    </section>
+
+
+
+    <section>
+
+      <h2>Attribute Selectors</h2>
+
+      <a href="https://example.com">Visit Example</a>
+
+      <input type="text" placeholder="Type something...">
+
+    </section>
+
+
+
+    <section>
+
+      <h2>Pseudo-Classes and Pseudo-Elements</h2>
+
+      <a href="#">Hover over this link</a>
+
+      <p class="first-letter">This paragraph starts with a large first letter.</p>
+
+    </section>
+
+  </main>
+
+
+
+  <footer>
+
+    <p>&copy; 2025 CSS Selectors Demo</p>
+
+  </footer>
+
+</body>
+
+</html>
