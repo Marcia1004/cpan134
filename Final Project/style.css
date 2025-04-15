@@ -1,0 +1,84 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background-color: #fdf6e3; /* creme */
+  color: #333;
+}
+
+header {
+  background-color: #f5deb3;
+  padding: 1em 2em;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+#about, #projects {
+  padding: 2em;
+  text-align: center;
+}
+
+img {
+  width: 150px;
+  border-radius: 50%;
+  margin: 1em 0;
+}
+
+footer {
+  background-color: #f5deb3;
+  text-align: center;
+  padding: 1em;
+  margin-top: 2em;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+section#portfolio {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1, h2 {
+  color: #006400;
+}
+
+ul, ol {
+  margin-left: 20px;
+}
+
+code {
+  background-color: #f0f0f0;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+hr {
+  border: 1px solid #ddd;
+  margin: 20px 0;
+}
