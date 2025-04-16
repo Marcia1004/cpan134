@@ -1,84 +1,194 @@
+/* Reset and Base Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin: 0;
-  background-color: #fdf6e3; /* creme */
+  background-color: #f7f7f7;
   color: #333;
+  line-height: 1.6;
 }
+
+/* Header and Navigation */
 
 header {
-  background-color: #f5deb3;
-  padding: 1em 2em;
+  background-color: #1f2a44;
+  color: white;
+  padding: 1rem 2rem;
 }
 
-nav {
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-nav ul {
-  list-style-type: none;
-  display: flex;
-  gap: 1rem;
-}
-
-nav a {
-  text-decoration: none;
-  color: #000;
+.logo {
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
-#about, #projects {
-  padding: 2em;
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #c0c0c0;
+}
+
+/* Hero Section - Front Display */
+.hero {
   text-align: center;
+  padding: 3rem 1rem;
+  background-color: #ffffff;
 }
 
-img {
-  width: 150px;
-  border-radius: 50%;
-  margin: 1em 0;
+.hero-pic {
+  width: 250px;
+  height: 300px; 
+  object-fit: cover;
+  object-position: top;
+  margin-bottom: 1rem;
+  border-radius: 8px; 
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-footer {
-  background-color: #f5deb3;
-  text-align: center;
-  padding: 1em;
-  margin-top: 2em;
+.hero h1 {
+  font-size: 2rem;
+  color: #1f2a44;
+  margin-bottom: 0.5rem;
 }
 
-
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
-  margin: 0;
-  padding: 0;
+.hero p {
+  color: #666;
+  font-size: 1.1rem;
 }
 
-section#portfolio {
+/* Main Section Styling */
+.section {
+  padding: 3rem 2rem;
   max-width: 800px;
-  margin: 20px auto;
-  padding: 20px;
+  margin: 2rem auto 0 auto;
   background-color: white;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.hidden {
+  display: none;
+}
+
+h2 {
+  color: #1f2a44;
+  margin-bottom: 1rem;
+}
+
+/* About Section Table */
+.about-table {
+  width: 100%;
+  margin-bottom: 2rem;
+  border-collapse: collapse;
+}
+
+.about-table th,
+.about-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.about-table th {
+  width: 25%;
+  font-weight: bold;
+}
+
+.about-table td {
+  width: 75%;
+}
+
+.about p {
+  margin-bottom: 1.6.0rem;
+  color: #444;
+  font-size: 0.4rem;
+  line-height: 1.5;
+}
+
+/* Contact Section */
+.contact-table {
+  width: 100%;
+  margin-top: 2rem;
+  border-collapse: collapse;
+}
+
+.contact-table th,
+.contact-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.contact-table a {
+  color: #1f2a44;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-table a:hover {
+  color: #c0c0c0;
+}
+
+/* YouTube Video */
+iframe {
+  margin-top: 1.5rem;
   border-radius: 8px;
 }
 
-h1, h2 {
-  color: #006400;
+/* Project List */
+.project-list {
+  list-style: none;
+  padding: 0;
 }
 
-ul, ol {
-  margin-left: 20px;
-}
-
-code {
-  background-color: #f0f0f0;
-  padding: 4px 8px;
+.project-list li {
+  background-color: #f1f1f1;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border-left: 4px solid #1f2a44;
   border-radius: 4px;
 }
 
-hr {
-  border: 1px solid #ddd;
-  margin: 20px 0;
+/* Image for Projects */
+.projects-image-container {
+  text-align: center;
+  margin-bottom: 2rem;
 }
+
+.projects-image {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+  background-color: #1f2a44;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 4rem;
+  font-size: 0.9rem;
+}
+

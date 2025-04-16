@@ -1,6 +1,5 @@
 const projects = [
-    "Responsive Web Design",
-    "Smart Shopping List App",
-    "HR Management Tool",
-    "Portfolio Website"
-  ];
+  "Smart Shopping List App",
+  "HR Dashboard (JavaScript)",
+  "Professional Portfolio Website"
+];

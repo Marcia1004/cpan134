@@ -1,10 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Project</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Add your CSS file if needed -->
+    <link rel="stylesheet" href="styles.css"> 
 </head>
 <body>
 
@@ -46,7 +47,7 @@
             <li><strong>CSS</strong></li>
             <li><strong>JavaScript</strong></li>
         </ul>
-        <p>With focus on:</p>
+        <p>With a focus on:</p>
         <ul>
             <li>Proper use of <strong>forms</strong>, <strong>tables</strong>, <strong>headers</strong>, <strong>footers</strong>, and <strong>lists</strong></li>
             <li>JavaScript for <strong>validation</strong> and interactive features</li>
@@ -59,6 +60,6 @@
         <p>🙌 <strong>Thank you for taking the time to explore my portfolio!</strong></p>
     </section>
 
-    <script src="scripts.js"></script> <!-- Add your JavaScript file if needed -->
+    <script src="scripts.js"></script> 
 </body>
 </html>

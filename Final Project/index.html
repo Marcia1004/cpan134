@@ -2,33 +2,102 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Marcia Oliveira - Portfolio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <nav>
-      <h1>Marcia Oliveira</h1>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
+    <nav class="navbar">
+      <div class="logo">Marcia Oliveira</div>
+      <ul class="nav-links">
+        <li><a href="#" data-section="about">About</a></li>
+        <li><a href="#" data-section="projects">Projects</a></li>
+        <li><a href="#" data-section="contact">Contact</a></li> 
       </ul>
     </nav>
   </header>
 
   <main>
-    <section id="about">
-      <img src="Marcia_Oliveira.jpg" alt="Marcia Oliveira" />
-      <h2>About Me</h2>
-      <p>
-        I'm <strong>Marcia Oliveira</strong>, an HR professional turned coder, passionate about problem-solving and innovation.
-      </p>
+    <!-- Hero Section with your image always visible -->
+    <section class="hero">
+      <img src="Marcia_Oliveira.jpg" alt="Marcia Oliveira" class="hero-pic" />
+      
+      <p>Welcome to my professional portfolio. Here, you will find my projects and ways to get in touch.</p>
+       
+     
     </section>
 
-    <section id="projects">
+    <!-- About Section with Table Information and YouTube Video -->
+    <section id="about" class="section hidden">
+      <h2>About Me</h2>
+
+      <p>
+        I am a passionate individual focused on problem-solving, innovation, and bridging the gap between 
+        people and technology. As an experienced HR professional transitioning into computer programming, 
+        I aim to expand my skills and explore tech-driven solutions.
+      </p>
+
+      <table class="about-table">
+        <tr>
+          <th>Name</th>
+          <td>Marcia Oliveira</td>
+        </tr>
+        <tr>
+          <th>Age</th>
+          <td>34</td>
+        </tr>
+        <tr>
+          <th>Hobbies</th>
+          <td>Dancing, Traveling, Reading</td>
+        </tr>
+        <tr>
+          <th>Favorite Foods</th>
+          <td>Sushi, Lasagna, Pasta</td>
+        </tr>
+        <tr>
+          <th>Goals & Dreams</th>
+          <td>Work remotely while traveling the world</td>
+        </tr>
+      </table>
+
+      <h2>My Passion</h2>
+      <!-- YouTube Embed -->
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/ukmC6F0JvQw?si=REM97qnlMVCpmqIP"
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section hidden">
       <h2>Projects</h2>
-      <ul id="project-list"></ul>
+
+      <!-- Image representing your projects -->
+      <div class="projects-image-container">
+        <img src="Project image.PNG" alt="Projects" class="projects-image" />
+      </div>
+
+      <ul id="project-list" class="project-list"></ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section hidden">
+      <h2>Contact Me</h2>
+
+      <table class="contact-table">
+        <tr>
+          <th>Email</th>
+          <td><a href="mailto:marciaaoliveira1004@gmail.com">marciaaoliveira1004@gmail.com</a></td>
+        </tr>
+        <tr>
+          <th>Phone</th>
+          <td>+1 437 928 6372</td>
+        </tr>
+        <tr>
+          <th>Social Media</th>
+          <td><a href="https://www.linkedin.com/in/márcia-oliveira1004" target="_blank">LinkedIn</a></td>
+        </tr>
+      </table>
     </section>
   </main>
 
